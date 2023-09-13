@@ -434,6 +434,12 @@ h6 {
   border: 2px solid #e43c5c;
 }
 
+@media (max-height:1400){
+  #logoImage {
+    height:1vp;
+  }
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -462,6 +468,15 @@ h6 {
     height: 150vh;
   }
 }
+
+@media (max-width: 550px) {
+  #logoImage {
+    /* position: inherit; */
+    max-width: 300px;
+    height: auto;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
