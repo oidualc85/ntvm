@@ -503,7 +503,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
@@ -514,6 +514,7 @@ section {
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
+  margin-bottom: 20px;
 }
 
 .section-title h3 {
@@ -541,7 +542,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about ul li{
-  text-align: justify;
+  /* text-align: justify; */
 }
 .about .content h3 {
   font-weight: 600;
@@ -1068,6 +1069,7 @@ section {
   position: absolute;
   left: 0;
   top: -2px;
+  
 }
 
 .faq .faq-list p {

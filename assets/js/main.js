@@ -243,3 +243,6 @@
 document.getElementByc('mail').addEventListener('click', function() {
   window.location.href = 'consultanarrativamente@gmail.com';
 });
+
+
+
