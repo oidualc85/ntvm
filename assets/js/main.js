@@ -239,3 +239,7 @@
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   }
+
+document.getElementByc('mail').addEventListener('click', function() {
+  window.location.href = 'consultanarrativamente@gmail.com';
+});

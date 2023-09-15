@@ -44,9 +44,9 @@ h6 {
   bottom: 15px;
   z-index: 996;
   background: #25D366;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
+  width: 55px;
+  height: 55px;
+  border-radius: 55px;
   transition: all 0.4s;
 }
 
@@ -475,6 +475,7 @@ h6 {
     height: auto;
   }
 } */
+
 
 
 /*--------------------------------------------------------------
