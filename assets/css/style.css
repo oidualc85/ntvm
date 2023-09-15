@@ -434,6 +434,13 @@ h6 {
   border: 2px solid #e43c5c;
 }
 
+/* para que el titulo no se sobreponga a la barra de navegacion */
+@media screen and (max-height: 600px) {
+  #hero h3{
+    margin-top: 70px;
+    max-width: 100%;
+  }
+}
 /* @media (max-height:1400){
   #logoImage {
     height:1vp;
