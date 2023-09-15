@@ -434,19 +434,19 @@ h6 {
   border: 2px solid #e43c5c;
 }
 
-@media (max-height:1400){
+/* @media (max-height:1400){
   #logoImage {
     height:1vp;
   }
-}
-
+} */
+/* 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #hero h3 {
     font-size: 22px;
   }
@@ -461,21 +461,20 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-}
+} */
 
-@media (max-height: 500px) {
+/* @media (max-height: 500px) {
   #hero {
     height: 150vh;
   }
-}
-
+} */
+/* 
 @media (max-width: 550px) {
   #logoImage {
-    /* position: inherit; */
     max-width: 300px;
     height: auto;
   }
-}
+} */
 
 
 /*--------------------------------------------------------------
@@ -705,7 +704,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/hero-bg.jpeg") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/hero-bg.jpeg") top center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1100,7 +1099,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/LogoArrimoCorto.jpg") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/LogoArrimoCorto.jpg") top center;
   background-size: cover;
   padding: 60px 0;
   background-attachment: fixed;
