@@ -524,11 +524,11 @@ section {
   font-weight: 600;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    width: 100%;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # About
@@ -740,11 +740,11 @@ section {
   border: 2px solid #e43c5c;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .cta {
     background-attachment: fixed;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1090,11 +1090,11 @@ section {
   transition: 0.6s;
 }
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .faq .container {
     padding: 0 120px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Team
@@ -1337,11 +1337,11 @@ section {
   margin-top: 67px;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 50px;
   }
-}
+} */
 
 .breadcrumbs h2 {
   font-size: 26px;
