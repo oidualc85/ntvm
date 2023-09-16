@@ -2126,3 +2126,8 @@ section {
   height: 100%;
   mix-blend-mode: screen;
 } */
+
+.carousel-item img {
+  width: 400px;
+  object-fit: cover;
+}
