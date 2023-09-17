@@ -434,6 +434,13 @@ h6 {
   }
 }
 
+/* probando para que no se achique tanto */
+@media (max-width: 600px) {
+  #imageLogo {
+    min-width: 95%;
+  }
+}
+
 
 
 /*--------------------------------------------------------------
