@@ -235,10 +235,10 @@
   });
 
 
-  // para que se vaya arriba al recargar
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  }
+// para que se vaya arriba al recargar
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 
 document.getElementByc('mail').addEventListener('click', function() {
   window.location.href = 'consultanarrativamente@gmail.com';
