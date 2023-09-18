@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #e43c5c;
+  color: #a9572d;
   text-decoration: none;
 }
 
@@ -147,7 +147,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #e43c5c;
+  background-color: #a9572d;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -200,7 +200,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #e43c5c;
+  color: #a9572d;
 }
 
 .navbar .dropdown:hover>ul {
@@ -305,7 +305,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #e43c5c;
+  color: #a9572d;
 }
 
 .navbar-mobile .getstarted,
@@ -340,7 +340,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #e43c5c;
+  color: #a9572d;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -353,7 +353,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/LogoArrimoSinFondo.jpeg") top center;
+  background: url("../img/LogoArrimo.jpeg") top center;
   background-size: cover;
   position: sticky;
   background-attachment: fixed;
@@ -361,7 +361,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -422,8 +422,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #a9572d;
+  border: 2px solid #a9572d;
 }
 
 /* para que el titulo no se sobreponga a la barra de navegacion */
@@ -467,12 +467,14 @@ section {
   padding: 8px 20px;
   line-height: 1;
   margin: 0;
-  background: #fdeff2;
-  color: #e43c5c;
+  background: #b9b14766;
+  color: #ff7b00;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
   margin-bottom: 20px;
+  /* background: #b9b14766;
+  color: #a9572d; */
 }
 
 .section-title h3 {
@@ -482,7 +484,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #e43c5c;
+  color: #a9572d;
 }
 
 .section-title p {
@@ -499,9 +501,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-/* .about ul li{
+.about ul li{
   text-align: justify;
-} */
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -526,7 +528,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #e43c5c;
+  color: #a9572d;
   line-height: 1;
 }
 
@@ -544,14 +546,14 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #e43c5c;
+  color: #a9572d;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #e43c5c;
+  border: 2px solid #a9572d;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #e43c5c;
+  background: #a9572d;
   color: #fff;
   text-decoration: none;
 }
@@ -588,7 +590,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #e43c5c;
+  background: #a9572d;
   top: 0;
   border-radius: 0px;
 }
@@ -600,7 +602,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #e43c5c;
+  color: #a9572d;
   transition: all 0.3s ease-in-out;
 }
 
@@ -664,7 +666,7 @@ section {
 }
 
 .features .icon-box:hover a {
-  color: #e43c5c;
+  color: #a9572d;
 }
 
 
@@ -692,7 +694,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #e43c5c;
+  color: #a9572d;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -724,7 +726,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: #e43c5c;
+  color: #a9572d;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -743,8 +745,8 @@ section {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  border: 2px solid #e43c5c;
-  color: #e43c5c;
+  border: 2px solid #a9572d;
+  color: #a9572d;
   font-size: 14px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
@@ -753,16 +755,16 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #e43c5c;
+  background: #a9572d;
   color: #fff;
 }
 
 .pricing .recommended {
-  border-color: #e43c5c;
+  border-color: #a9572d;
 }
 
 .pricing .recommended .btn-buy {
-  background: #e43c5c;
+  background: #a9572d;
   color: #fff;
 }
 
@@ -780,7 +782,7 @@ section {
   font-size: 13px;
   padding: 3px 25px 6px 25px;
   background: #fce6ea;
-  color: #e43c5c;
+  color: #a9572d;
   border-radius: 50px;
 }
 
@@ -805,7 +807,7 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #e43c5c;
+  font-family: #a9572d;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -837,7 +839,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #e43c5c;
+  color: #a9572d;
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -856,7 +858,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/LogoArrimoCorto.jpg") top center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.3)), url("../img/LogoArrimoSinFondo.jpeg") top center;
   background-size: cover;
   padding: 60px 0;
   background-attachment: fixed;
@@ -905,7 +907,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #e43c5c;
+  color: #a9572d;
 }
 
 .team .member .social i {
@@ -952,7 +954,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #e43c5c;
+  color: #a9572d;
   float: left;
   width: 44px;
   height: 44px;
@@ -987,7 +989,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #e43c5c;
+  background: #a9572d;
   color: #fff;
 }
 
@@ -1050,7 +1052,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #e43c5c;
+  border-color: #a9572d;
 }
 
 .contact .php-email-form input {
@@ -1062,7 +1064,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #e43c5c;
+  background: #a9572d;
   border: 0;
   padding: 10px 28px;
   color: #fff;
@@ -1164,7 +1166,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #e43c5c;
+  color: #a9572d;
 }
 
 #footer .footer-newsletter {
@@ -1204,7 +1206,7 @@ section {
   background: none;
   font-size: 15px;
   padding: 0 22px;
-  background: #e43c5c;
+  background: #a9572d;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1224,7 +1226,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #e43c5c;
+  background: #a9572d;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
