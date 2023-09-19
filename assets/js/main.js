@@ -55,6 +55,8 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
+
+
   /**
    * Scrolls to an element with header offset
    */
@@ -77,12 +79,16 @@
    * Toggle .header-scrolled class to #header when page is scrolled
    */
   let selectHeader = select('#header')
+  var LN1LineaBlanco = document.getElementById('LN1LineaBlanco');
   if (selectHeader) {
     const headerScrolled = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 500) {
         selectHeader.classList.add('header-scrolled')
+        LN1LineaBlanco.id = 'LN1LineaBlanco-scrolled';
+
       } else {
         selectHeader.classList.remove('header-scrolled')
+        LN1LineaBlanco.id = 'LN1LineaBlanco';
       }
     }
     window.addEventListener('load', headerScrolled)
@@ -142,58 +148,6 @@
     }
   }, true)
 
-  /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-      });
-
-      let portfolioFilters = select('#portfolio-flters li', true);
-
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-
-      }, true);
-    }
-
-  });
-
-  /**
-   * Initiate portfolio lightbox 
-   */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
 
   /**
    * Scroll with ofset on page load with hash links in the url
@@ -234,26 +188,16 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
-// document.getElementByc('mail').addEventListener('click', function() {
-//   window.location.href = 'consultanarrativamente@gmail.com';
-// });
 
 
 // cambia fondo de hero
-window.onload = function() {
-  setTimeout(function() {
-    var hero = document.getElementById('hero');
-    hero.style.backgroundImage = "url('assets/img/LogoArrimo.jpeg')";
-    hero.style.backgroundPosition = "top center";
-    hero.style.backgroundSize = "cover";
-    hero.style.transition = "background 2s ease-in-out";
-  }, 2000);
-  
+// window.onload = function() {
+//   setTimeout(function() {
+//     var hero = document.getElementById('hero');
+//     hero.style.backgroundImage = "url('../img/LogoArrimo.jpeg')";
+//     hero.style.backgroundPosition = "top center";
+//     hero.style.backgroundSize = "cover";
+//   }, 2000);
+// };
 
-// desaparece el logo
-  setTimeout(function() {
-    imageLogo.style.transition = "opacity 1s ease-in-out";
-    imageLogo.style.opacity = '0';
-  }, 2000);
-};
 
