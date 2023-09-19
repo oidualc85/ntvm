@@ -240,9 +240,26 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
-document.getElementByc('mail').addEventListener('click', function() {
-  window.location.href = 'consultanarrativamente@gmail.com';
-});
+// document.getElementByc('mail').addEventListener('click', function() {
+//   window.location.href = 'consultanarrativamente@gmail.com';
+// });
 
 
+// cambia fondo de hero
+window.onload = function() {
+  setTimeout(function() {
+    var hero = document.getElementById('hero');
+    hero.style.backgroundImage = "url('assets/img/LogoArrimo.jpeg')";
+    hero.style.backgroundPosition = "top center";
+    hero.style.backgroundSize = "cover";
+    hero.style.transition = "background 0.6s ease-in-out";
+  }, 2000);
+  
+
+// desaparece el logo
+  setTimeout(function() {
+    imageLogo.style.transition = "opacity 0.7s ease-in-out";
+    imageLogo.style.opacity = '0';
+  }, 1800);
+};
 

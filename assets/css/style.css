@@ -353,15 +353,17 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/LogoArrimo.jpeg") top center;
+  background-image: url("../img/LogoArrimoSinNada.jpeg");
   background-size: cover;
   position: sticky;
   background-attachment: fixed;
+  filter:sepia(0.3)
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
+
   position: absolute;
   bottom: 0;
   top: 0;
@@ -395,7 +397,7 @@ h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
@@ -410,7 +412,7 @@ h6 {
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 13px;
   letter-spacing: 1px;
   display: inline-block;
@@ -671,122 +673,6 @@ section {
 
 
 /*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #f9f9f9;
-  text-align: center;
-  border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-  border: 2px solid #f9f9f9;
-}
-
-.pricing .box h3 {
-  font-weight: 400;
-  padding: 15px;
-  margin-top: 15px;
-  font-size: 20px;
-  font-weight: 600;
-  color: #493c3e;
-}
-
-.pricing .box h4 {
-  font-size: 42px;
-  color: #a9572d;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .box h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing .box ul {
-  padding: 0;
-  list-style: none;
-  color: #493c3e;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing .box ul li {
-  padding-bottom: 16px;
-}
-
-.pricing .box ul i {
-  color: #a9572d;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing .box ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .box .btn-wrap {
-  padding: 15px;
-  text-align: center;
-}
-
-.pricing .box .btn-buy {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  border: 2px solid #a9572d;
-  color: #a9572d;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .box .btn-buy:hover {
-  background: #a9572d;
-  color: #fff;
-}
-
-.pricing .recommended {
-  border-color: #a9572d;
-}
-
-.pricing .recommended .btn-buy {
-  background: #a9572d;
-  color: #fff;
-}
-
-.pricing .recommended .btn-buy:hover {
-  background: #d91e42;
-  border-color: #d91e42;
-}
-
-.pricing .recommended-badge {
-  position: absolute;
-  top: 5px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  font-size: 13px;
-  padding: 3px 25px 6px 25px;
-  background: #fce6ea;
-  color: #a9572d;
-  border-radius: 50px;
-}
-
-/*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {
@@ -813,7 +699,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #d01d3f;
+  color: #a9572d;
   transition: 0.3s;
 }
 
@@ -1073,7 +959,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #d01d3f;
+  background: #dd7e52;
 }
 
 @keyframes animate-loading {
@@ -1245,6 +1131,13 @@ section {
 }
 
 
+/* instagram:  */
+#footer a{
+  color: #E1306C;
+}
+#footer a:hover{
+  color: #FD1D1D;
+}
 
 /*--------------------------------------------------------------
 # Preloader
