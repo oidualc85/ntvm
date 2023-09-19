@@ -463,8 +463,10 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding-top: 40px;
+  padding-bottom: 50px;
   overflow: hidden;
+  /* border-bottom: 1px solid #ebebeb */
 }
 
 .section-bg {
@@ -689,9 +691,9 @@ section {
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
-.faq {
+/* .faq {
   padding: 60px 0;
-}
+} */
 
 .faq .faq-list {
   padding: 0;
@@ -758,7 +760,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  padding: 60px 0;
+  margin-bottom: 30px;
   color: #fff;
   background-image: url("../img/LogoArrimoSinNada.jpeg");
   background-size: cover;
