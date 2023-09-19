@@ -370,7 +370,7 @@ h6 {
   background-size: cover;
   position: sticky;
   background-attachment: fixed;
-  filter:sepia(0.3)
+  filter:sepia(0.4)
 }
 
 #hero:before {
@@ -757,11 +757,13 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.3)), url("../img/LogoArrimoSinFondo.jpeg") top center;
-  background-size: cover;
   padding: 60px 0;
-  background-attachment: fixed;
   color: #fff;
+  background-image: url("../img/LogoArrimoSinNada.jpeg");
+  background-size: cover;
+  position: sticky;
+  background-attachment: fixed;
+  filter:sepia(0.4)
 }
 
 .team .member {
@@ -841,6 +843,10 @@ section {
 
 .team .member:hover .social {
   opacity: 1;
+}
+
+.team p{
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -1231,7 +1237,7 @@ section {
 
 
 
-.carousel-item img {
+/* .carousel-item img {
   width: 400px;
   object-fit: cover;
-}
+} */
