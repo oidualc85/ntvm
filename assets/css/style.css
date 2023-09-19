@@ -370,7 +370,8 @@ h6 {
   background-size: cover;
   position: sticky;
   background-attachment: fixed;
-  filter:sepia(0.4)
+  background-position: center center;
+  /* filter:sepia(0.4) */
 }
 
 #hero:before {
@@ -763,7 +764,7 @@ section {
   background-size: cover;
   position: sticky;
   background-attachment: fixed;
-  filter:sepia(0.4)
+  /* filter:sepia(0.4) */
 }
 
 .team .member {
