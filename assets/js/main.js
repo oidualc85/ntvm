@@ -1,10 +1,4 @@
-/**
-* Template Name: Tempo
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -252,14 +246,14 @@ window.onload = function() {
     hero.style.backgroundImage = "url('assets/img/LogoArrimo.jpeg')";
     hero.style.backgroundPosition = "top center";
     hero.style.backgroundSize = "cover";
-    hero.style.transition = "background 0.6s ease-in-out";
+    hero.style.transition = "background 2s ease-in-out";
   }, 2000);
   
 
 // desaparece el logo
   setTimeout(function() {
-    imageLogo.style.transition = "opacity 0.7s ease-in-out";
+    imageLogo.style.transition = "opacity 1s ease-in-out";
     imageLogo.style.opacity = '0';
-  }, 1800);
+  }, 2000);
 };
 
