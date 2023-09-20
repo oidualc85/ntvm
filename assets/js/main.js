@@ -188,16 +188,3 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
-
-
-// cambia fondo de hero
-// window.onload = function() {
-//   setTimeout(function() {
-//     var hero = document.getElementById('hero');
-//     hero.style.backgroundImage = "url('../img/LogoArrimo.jpeg')";
-//     hero.style.backgroundPosition = "top center";
-//     hero.style.backgroundSize = "cover";
-//   }, 2000);
-// };
-
-
