@@ -359,7 +359,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url("../img/GoogleClassroomHeaderFeathers.png");
+  background-image: url("../img/heroNarrativamente.webp");
   background-size: cover;
   position: sticky;
   background-attachment: fixed;
@@ -1236,3 +1236,6 @@ section {
   }
 }
 
+.carousel-item {
+  transition: transform 0.7s ease-in-out;
+}
